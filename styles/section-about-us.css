@@ -1,0 +1,128 @@
+.section-about-us {
+  background: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  padding-top: 38px;
+  margin-bottom: 45px;
+}
+
+.section-about-us__span {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  color: #777777;
+  padding-left: 20px;
+}
+
+.section-about-us__title {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -1.2px;
+  color: #111111;
+}
+
+.section-about-us__p {
+  text-align: left;
+  margin-top: 16px;
+  margin-right: 20px;
+  margin-bottom: 24px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  padding-left: 20px;
+}
+
+.section-about-us__button-gold {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 30px;
+  margin-bottom: 60px;
+  margin-right: 90px;
+}
+
+.button-gold__text {
+  background: #BEAD8E;
+  width: 100%;
+  padding: 22px 60px 22px 60px;
+}
+
+.section__img-container {
+  width: 70%;
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 53px;
+  position: relative;
+}
+
+.img-container__img {
+  width: 100%;
+  left: 50px;
+}
+
+.section__strong-team {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #FFFFFF;
+  padding-left: 52px;
+  padding-right: 53px;
+}
+
+.strong-team__img-container-strong-team {
+  width: 100%;
+  position: relative;
+}
+.strong-team__img-container-strong-team .img-container-strong-team__img-team-gold {
+  z-index: 1;
+}
+
+.img-container-strong-team__transparent-img {
+  position: relative;
+}
+
+.transparent-img__img {
+  position: absolute;
+  top: -65px;
+  z-index: 0;
+  margin-left: 10px;
+}
+
+.strong-team__span {
+  margin-bottom: 21px;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.9px;
+  color: #111111;
+  z-index: 1;
+}
+
+.strong-team__p {
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 38px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #111111;
+  z-index: 1;
+}/*# sourceMappingURL=section-about-us.css.map */

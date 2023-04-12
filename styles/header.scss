@@ -1,0 +1,106 @@
+.header{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
+    display: flex;
+    width: 100%;
+    color: rgba(17, 17, 17, 1);
+    // height: 70px;
+    align-items: center;
+}
+
+.header__inner{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.inner__burger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 32px;
+}
+
+.inner__burger:hover{
+    cursor: pointer;
+}
+
+.inner__logo{
+    padding: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 24px rgba(139, 139, 139, 0.25);
+    margin-right: 13.52px;
+}
+
+.burger__img{
+    width: 20px;
+    background: #111111;
+    margin-top: 4.22px;
+    
+}
+
+.header__icons-right{
+    display: flex;
+}
+
+.icons-right__img{
+    width: 20px;
+    margin: 14px
+}
+
+// --------------------------------------------
+
+.header__inner-li {
+    overflow: hidden;
+    height: 0;
+    display: flex;
+    margin-top: 0%;
+    margin-right: 0%;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    padding: 1%;
+    flex-direction: column;
+    // 
+    
+  }
+
+  .inner-li__element {
+    
+    text-align: left;
+    list-style: none;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    color: #111111;
+    padding: 12px;
+    
+  }
+  .header__inner-li-active {
+    overflow: active;
+    background-color: white;
+    height: 0;
+    display: flex;
+    margin-top: 0%;
+    margin-right: 0%;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    padding: 1%;
+    flex-direction: column;
+   
+  }
+
+
+//   .navigation-li a{
+//     color: black;
+  
+//   }
+
+//   .inner__burger{
+//     display: block;
+//     margin-right: 5%;
+// }

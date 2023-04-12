@@ -1,0 +1,133 @@
+.section-perfect-base {
+  background: #333333;
+}
+
+.section-perfect-base__text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 75px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.text__experience {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  color: #FFFFFF;
+  margin-right: 118px;
+  margin-bottom: 40px;
+}
+
+.text__base {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #FFFFFF;
+  margin-right: 41px;
+}
+
+.section-perfect-base__button-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 76px;
+}
+
+.button {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button-container__button-gold {
+  margin-top: 40px;
+  margin-bottom: 69px;
+}
+
+.button-gold__span {
+  padding: 22.8px 46.27px 22.2px 48.73px;
+  background: #BEAD8E;
+  margin-bottom: 24px;
+}
+
+.button-black__span {
+  padding: 22.8px 46.27px 22.2px 48.73px;
+  border: 2px solid rgba(255, 255, 255, 0.33);
+  margin-bottom: 98.2;
+}
+
+.section-perfect-base__form-check-availability {
+  background: #222222;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form-check-availability__span {
+  padding-top: 36px;
+  margin-bottom: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.form-check-availability__input-container {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.input-container__img {
+  margin-right: 2px;
+  width: 5%;
+}
+
+.form-check-availability__input {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  background: #222222;
+  color: #686868;
+  margin-left: 8.8px;
+  box-shadow: none;
+  border: 0px solid;
+}
+
+.form-check-availability__golden.bar {
+  margin-top: 15px;
+}
+
+.form-check-availability__button {
+  margin-top: 42px;
+  padding-left: 28px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 22px;
+  background: #BEAD8E;
+  margin-bottom: 36px;
+  margin-right: 105px;
+}/*# sourceMappingURL=section-perfect-base.css.map */

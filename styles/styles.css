@@ -1,13 +1,17 @@
 @import '/hotel-miranda/styles/header.css';
-@import '/hotel-miranda/styles/section-perfect-base.css';
-@import '/hotel-miranda/styles/section-about-us.css';
-@import '/hotel-miranda/styles/section-luxury-room.css';
-@import '/hotel-miranda/styles/section-hand-picked.css';
-@import '/hotel-miranda/styles/section-intro-video.css';
-@import '/hotel-miranda/styles/section-facilities.css';
-@import '/hotel-miranda/styles/section-menu.css';
-@import '/hotel-miranda/styles/section-objectives.css';
 @import '/hotel-miranda/styles/footer.css';
+@import '/hotel-miranda/styles/home/section-perfect-base.css';
+@import '/hotel-miranda/styles/home/section-about-us.css';
+@import '/hotel-miranda/styles/home/section-luxury-room.css';
+@import '/hotel-miranda/styles/home/section-hand-picked.css';
+@import '/hotel-miranda/styles/home/section-intro-video.css';
+@import '/hotel-miranda/styles/home/section-facilities.css';
+@import '/hotel-miranda/styles/home/section-menu.css';
+@import '/hotel-miranda/styles/home/section-objectives.css';
+@import '/hotel-miranda/styles/about/section-luxury.css';
+@import '/hotel-miranda/styles/about/section-restaurant.css';
+@import '/hotel-miranda/styles/about/section-slider-facilities.css';
+@import '/hotel-miranda/styles/about/section-fun-facts.css';
 @font-face {
   font-family: "Archivo";
   src: url("/hotel-miranda/styles/Archivo-VariableFont_wdth,wght.ttf");
@@ -24,4 +28,5 @@ html * {
 
 body {
   min-width: 320px;
+  background-color: #FFFFFF;
 }/*# sourceMappingURL=styles.css.map */

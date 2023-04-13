@@ -59,6 +59,7 @@
 
 .button-container__button-gold {
   margin-top: 40px;
+  width: 240px;
   margin-bottom: 69px;
 }
 
@@ -68,10 +69,13 @@
   margin-bottom: 24px;
 }
 
+.button-container__button-black {
+  width: 240px;
+}
+
 .button-black__span {
   padding: 22.8px 46.27px 22.2px 48.73px;
   border: 2px solid rgba(255, 255, 255, 0.33);
-  margin-bottom: 98.2;
 }
 
 .section-perfect-base__form-check-availability {

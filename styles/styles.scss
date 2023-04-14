@@ -17,13 +17,23 @@
 @import '/hotel-miranda/styles/about/section-slider-facilities.css';
 @import '/hotel-miranda/styles/about/section-fun-facts.css';
 
+//Rooms
+@import '/hotel-miranda/styles/rooms/section-rooms-luxury.css';
+@import '/hotel-miranda/styles/rooms/section-selection-rooms.css';
+
+
 @font-face{
     font-family: 'Archivo';
-    src: url('/hotel-miranda/styles/Archivo-VariableFont_wdth\,wght.ttf');
+    src: url('/hotel-miranda/styles/fonts/Archivo-VariableFont_wdth\,wght.ttf');
 }
 @font-face {
     font-family: 'Roboto';
-    src: url('/hotel-miranda/styles/Roboto-Regular.ttf');
+    src: url('/hotel-miranda/styles/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Old Standard TT';
+    src: url('/hotel-miranda/styles/fonts/OldStandardTT-Regular.ttf');
 }
 
 html * { box-sizing: border-box; margin: 0; padding: 0 ;  }

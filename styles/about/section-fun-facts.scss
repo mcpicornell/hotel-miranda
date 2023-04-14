@@ -8,8 +8,8 @@
 
     margin-bottom: 24px;
     padding: 25px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     
 }
 

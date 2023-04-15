@@ -1,5 +1,6 @@
 @import '/hotel-miranda/styles/header.css';
 @import '/hotel-miranda/styles/footer.css';
+@import '/hotel-miranda/styles/blocks.css';
 @import '/hotel-miranda/styles/home/section-perfect-base.css';
 @import '/hotel-miranda/styles/home/section-about-us.css';
 @import '/hotel-miranda/styles/home/section-luxury-room.css';
@@ -14,6 +15,11 @@
 @import '/hotel-miranda/styles/about/section-fun-facts.css';
 @import '/hotel-miranda/styles/rooms/section-rooms-luxury.css';
 @import '/hotel-miranda/styles/rooms/section-selection-rooms.css';
+@import '/hotel-miranda/styles/room-details/section-room-avaliability.css';
+@import '/hotel-miranda/styles/room-details/section-amenities.css';
+@import '/hotel-miranda/styles/room-details/section-founder.css';
+@import '/hotel-miranda/styles/room-details/section-cancellation.css';
+@import '/hotel-miranda/styles/room-details/section-related-rooms.css';
 @font-face {
   font-family: "Archivo";
   src: url("/hotel-miranda/styles/fonts/Archivo-VariableFont_wdth,wght.ttf");

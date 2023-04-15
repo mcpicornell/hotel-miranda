@@ -1,0 +1,66 @@
+.section-amenities {
+  margin: 30px 20px 104px 10px;
+}
+
+.section-amenities__title {
+  margin-left: 10px;
+  margin-bottom: 13.5px;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #222222;
+}
+
+.section-amenities__hr {
+  margin-left: 10px;
+  background-color: #F1F1F1;
+  border: none;
+  margin-bottom: 35.5px;
+  height: 1px;
+}
+
+.section-amenities__amenities {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.amenities__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.amenities__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.right__amenities-container {
+  display: inline-block;
+  padding-bottom: 16px;
+}
+
+.left__amenities-container {
+  display: inline-block;
+  padding-bottom: 16px;
+}
+
+.amenities-container__img {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.amenities-container__span {
+  text-align: center;
+}
+
+.amenities-container__span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #777777;
+}/*# sourceMappingURL=section-amenities.css.map */

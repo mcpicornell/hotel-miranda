@@ -1,0 +1,47 @@
+.section-form-contact {
+  margin: 0px 20px 60px 20px;
+}
+
+.section-form-contact__img-container {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.img-container__img-form {
+  width: 100%;
+}
+
+.form__input-container-contact {
+  background: #F8F8F8;
+  margin-bottom: 16px;
+  padding: 25px 21px 23px 21px;
+}
+
+.input-container-contact__img {
+  margin-right: 16px;
+}
+
+.input-container-contact__input {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  color: #777777;
+  background: #F8F8F8;
+}
+
+.form__input-message-container {
+  background: #F8F8F8;
+  margin-bottom: 16px;
+  padding: 25px 21px 131px 21px;
+}
+
+.section-form-contact__button {
+  margin-top: 20px;
+  margin-left: 39px;
+  background: #BEAD8E;
+  padding: 20px 102.4px 21px 104.6px;
+  border: none;
+}/*# sourceMappingURL=section-form-contact.css.map */

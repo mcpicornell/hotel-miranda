@@ -5,6 +5,7 @@
     padding-right: 20px;
     padding-bottom: 10px;
     margin-bottom: 32px;
+    position: relative;
 }
 
 .section-luxury__ultimate{
@@ -30,10 +31,23 @@
     margin-bottom: 63px;
 }
 
-.section-luxury__span-home{
-    margin-left: 40%;
+.section-luxury__container{
+    background: #FFFFFF;
+    // float: right;
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    bottom: -1px;
+}
+
+.container__span-home{
+   
+  
+    right: 20px;
+    bottom: 20px;
+    margin-left: 20px;
     margin-right: 20px;
-    padding: 16px 24px 16px 24px;
+    padding: 16px 16px 16px 16px;
     font-family: 'Archivo';
     font-style: normal;
     font-weight: 700;

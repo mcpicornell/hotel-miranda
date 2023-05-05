@@ -7,11 +7,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/hotel-miranda/styles/styles.css"/>
         <title>Hotel Miranda</title>
+        
     </head>
 
     <body class="page">
+    <div class="uptitle-header">
+        
+    </div>
 
     <header class="header">
+        <h5 class="uptitle-header__h5">We Make Your Feel Comfortable</h5>
         <div class="header__inner-li">
             <li class="li inner-li__element"><a href = "#about-us">About Us</a></li>
             <li class="li inner-li__element"><a href = "#rooms">Rooms</a></li>
@@ -21,7 +26,7 @@
 
         <div class="header__inner">
 
-            <a class="inner__burger" type="button">
+            <a class="inner__burger" onclick="showNavMenu()">
                 <img class="burger__img" src="/hotel-miranda/img/header/line.svg"/>
                 <img class="burger__img" src="/hotel-miranda/img/header/line.svg"/>
                 <img class="burger__img" src="/hotel-miranda/img/header/line.svg"/>
@@ -57,26 +62,31 @@
         </div>
 
         <form class="form section-perfect-base__form-check-availability">
-            <h3 class="h3 form-check-availability__span">Arrival Date</h3>
-            <div class="form-check-availability__input-container">
-                
-                <img class="input-container__img" src="/hotel-miranda/img/calendarBlack.jpg"/>
+            <div class="form-check-availability">
+                <h3 class="h3 form-check-availability__span">Arrival Date</h3>
+                <div class="form-check-availability__input-container">
+                    
+                    <img class="input-container__img" src="/hotel-miranda/img/calendarBlack.jpg"/>
 
-                <input class="input form-check-availability__input" type="text" placeholder="24th may 2023"/>
+                    <input class="input form-check-availability__input" type="text" placeholder="24th may 2023"/>
+                </div>
+
+                <img class="form-check-availability__golden.bar" src="/hotel-miranda/img/goldenBar.svg"/>
             </div>
-
-            <img class="form-check-availability__golden.bar" src="/hotel-miranda/img/goldenBar.svg"/>
             
+            <div class="form-check-availability">
+                <h3 class="h3 form-check-availability__span">LeDeparture Date</h3>
+                <div class="form-check-availability__input-container">
+                    
+                    <img class="input-container__img" src="/hotel-miranda/img/calendarBlack.jpg"/>
 
-            <h3 class="h3 form-check-availability__span">LeDeparture Date</h3>
-            <div class="form-check-availability__input-container">
-                
-                <img class="input-container__img" src="/hotel-miranda/img/calendarBlack.jpg"/>
+                    <input class="input form-check-availability__input" type="text" placeholder="30th may 2023"/>
+                </div>
 
-                <input class="input form-check-availability__input" type="text" placeholder="30th may 2023"/>
+                <img class="form-check-availability__golden.bar" src="/hotel-miranda/img/goldenBar.svg"/>
             </div>
 
-            <img class="form-check-availability__golden.bar" src="/hotel-miranda/img/goldenBar.svg"/>
+            
 
             <button class="button form-check-availability__button" type="submit">Check Availability</button>
         </form>
@@ -118,12 +128,7 @@
 
         <div class="section-luxury-room__container-luxury-room">
             <div class="container-luxury-room__calendar-gold">
-                <img class="calendar-gold__img" src="/hotel-miranda/img/calendarGold.svg"/>
-
-                <div class="container-luxury-room__calendar-arrow-gold">
-                    <img class="arrow-gold__img" src="/hotel-miranda/img/calendarGoldArrow.svg" />
-                </div>
-                
+                <img class="calendar-gold__img" src="/hotel-miranda/img/calendarGoldWithArrow.svg"/>
             </div>
 
             
@@ -168,6 +173,8 @@
 
         <div class="section-hand-picked__carrusel">
             <h3>SOY UN SLIDER</h3>
+            <a type="button" class="button buttons__white"><img src="/hotel-miranda/img/arrow-left.svg"/></a>
+            <a type="button" class="button buttons__gold"><img src="/hotel-miranda/img/arrow-right.svg"/></a>
 
         </div>
 
@@ -307,15 +314,17 @@
             </div>
             
             <p class="footer__text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
+
+            <div class="footer__social-media">
+                <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/1.facebook.svg"/>
+                <img class="img social-media__img" class="img social-media__img-twitter" src="/hotel-miranda/img/socialMedia/2.twitter.svg"/>
+                <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/3.Be.svg"/>
+                <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/4.linkedin.svg"/>
+                <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/5.youtube.svg"/>
+            </div>
         </div>
 
-        <div class="footer__social-media">
-            <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/1.facebook.svg"/>
-            <img class="img social-media__img" class="img social-media__img-twitter" src="/hotel-miranda/img/socialMedia/2.twitter.svg"/>
-            <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/3.Be.svg"/>
-            <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/4.linkedin.svg"/>
-            <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/5.youtube.svg"/>
-        </div>
+        
 
         <div class="footer__services">
             <h3 class="services__span">Services.</h3>
@@ -380,13 +389,15 @@
             </div>
         </div>
 
-        <div class="footer__copyright">
-            <h3 class="copyright__element">Copyright By@Example - 2020</h3>
-            <h3 class="copyright__element">Terms of use | Privacy Environmental Policy</h3>
-            
-        </div>
+        
     </footer>
-<script src="home3.js"></script>
+    <div class="footer__copyright">
+        <h3 class="copyright__element">Copyright By@Example - 2020</h3>
+        <h3 class="copyright__element">Terms of use | Privacy Environmental Policy</h3>
+    </div>
+    <script src="/hotel-miranda/html/home3.js">
+     
+    </script>
 </body>
 
 </html>

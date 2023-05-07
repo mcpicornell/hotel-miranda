@@ -11,16 +11,22 @@
 
     <body class="page">
 
+        <div class="uptitle-header">
+        
+        </div>
+    
         <header class="header">
+            <h5 class="uptitle-header__h5">We Make Your Feel Comfortable</h5>
             <div class="header__inner-li">
                 <li class="li inner-li__element"><a href = "#about-us">About Us</a></li>
                 <li class="li inner-li__element"><a href = "#rooms">Rooms</a></li>
                 <li class="li inner-li__element"><a href="#offers">Offers</a></li>
                 <li class="li inner-li__element"><a href="#contact">Contact</a></li>
             </div>
-
+    
             <div class="header__inner">
-                <a class="inner__burger" type="button">
+    
+                <a class="inner__burger" >
                     <img class="burger__img" src="/hotel-miranda/img/header/line.svg"/>
                     <img class="burger__img" src="/hotel-miranda/img/header/line.svg"/>
                     <img class="burger__img" src="/hotel-miranda/img/header/line.svg"/>
@@ -29,11 +35,13 @@
                 <img class="inner__logo" src="/hotel-miranda/img/header/H.svg"/>
                 <img class="inner__title" src="/hotel-miranda/img/header/HotelMiranda.svg" />
             </div>
-
+    
             <div class="header__icons-right">
                 <img class="icons-right__img" src="/hotel-miranda/img/header/contact.svg"/>
                 <img class="icons-right__img" src="/hotel-miranda/img/header/searcher.svg" />
             </div>
+    
+            
         </header>
 
         <section class="section-about-us-4">
@@ -47,12 +55,11 @@
             </div>
 
             <div class="section-about-us-4__present">
-                <video class="present__video">
-                    <source  src="/hotel-miranda/img/fondoGris.jpg">
-                </video>
+                <img class="present__video" src="/hotel-miranda/img/fondoGris.jpg" />
+                    <!-- <source class="video__about-us-video"  src="/hotel-miranda/img/fondoGris.jpg"> -->
+                
 
                 <h3 class="present__text">Hello. Our hotel has been present for over 20 years. We make the best for all our customers.</h3>
-
             </div>
 
             <div class="section-about-us-4__options">
@@ -65,9 +72,7 @@
                         <img src="/hotel-miranda/img/plane.svg" class="img-text__img"/>
                         <span class="img-text__text-plane">AIRPORT PICKUP</span>
                     </div>
-                </div>
-
-                <div class="options__container-options">
+                
                     <div class="container-options__img-text">
                         <img src="/hotel-miranda/img/ubiMap.svg" class="img-text__img" />
                         <span class="img-text__text">CITY GUIDE</span>
@@ -83,7 +88,7 @@
 
         <section class="section-restaurant">
             <div class="section-restaurant__img-container">
-                <img class="img-container__img" src="/hotel-miranda/img/fondoGris.jpg">
+                <img class="img-container__img-restaurant" src="/hotel-miranda/img/fondoGris.jpg">
             </div>
 
             <div class="section-restaurant__restaurant">
@@ -92,8 +97,6 @@
                 <p  class="restaurant__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                 
                     <a class="button restaurant__button"><span class="button__restaurant-text">TAKE A TOUR</span></a>
-                
-                
             </div>
         </section>
 
@@ -102,24 +105,98 @@
             <h3 class="section-slider-facilities__title">Core Features</h3>
 
             <div class="section-slider-facilities__carrusel">
-                <div class="carrusel__img4">
-                    <h3 class="img4__span01">01</h3>
-                    <div class="img4__container-goldFinger4">
-                        <img class="container-goldFinger4" src="/hotel-miranda/img/goldFinger.svg"/>
+                <div class="carrusel__carrusel">
+                    <div class="carrusel__img4">
+                        <h3 class="img4__span01">01</h3>
+                        <div class="img4__container-goldFinger4">
+                            <img class="container-goldFinger4" src="/hotel-miranda/img/features/1.goldFinger.svg"/>
+                        </div>
+                    </div>
+                    
+                    <div class="carrusel__container-high4">
+                        <h3 class="container-high4__title">Have High Rating</h3>
+                    <p class="container-high4__p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                     </div>
                 </div>
-                
-                <div class="carrusel__container-high4">
-                    <h3 class="container-high4__title">Have High Rating</h3>
-                <p class="container-high4__p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+
+                <div class="carrusel__carrusel">
+                    <div class="carrusel__img4">
+                        <h3 class="img4__span01">02</h3>
+                        <div class="img4__container-goldFinger4">
+                            <img class="container-goldFinger4" src="/hotel-miranda/img/features/2.hours.svg"/>
+                        </div>
+                    </div>
+                    
+                    <div class="carrusel__container-high4">
+                        <h3 class="container-high4__title">Quiet Hours</h3>
+                    <p class="container-high4__p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                </div>
+
+                <div class="carrusel__carrusel">
+                    <div class="carrusel__img4">
+                        <h3 class="img4__span01">03</h3>
+                        <div class="img4__container-goldFinger4">
+                            <img class="container-goldFinger4" src="/hotel-miranda/img/features/3.location.svg"/>
+                        </div>
+                    </div>
+                    
+                    <div class="carrusel__container-high4">
+                        <h3 class="container-high4__title">Best Locations</h3>
+                    <p class="container-high4__p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                </div>
+
+                <div class="carrusel__carrusel">
+                    <div class="carrusel__img4">
+                        <h3 class="img4__span01">04</h3>
+                        <div class="img4__container-goldFinger4">
+                            <img class="container-goldFinger4" src="/hotel-miranda/img/features/4.cancellation.svg"/>
+                        </div>
+                    </div>
+                    
+                    <div class="carrusel__container-high4">
+                        <h3 class="container-high4__title">Free Cancellation</h3>
+                    <p class="container-high4__p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                </div>
+
+                <div class="carrusel__carrusel">
+                    <div class="carrusel__img4">
+                        <h3 class="img4__span01">05</h3>
+                        <div class="img4__container-goldFinger4">
+                            <img class="container-goldFinger4" src="/hotel-miranda/img/features/5.payment.svg"/>
+                        </div>
+                    </div>
+                    
+                    <div class="carrusel__container-high4">
+                        <h3 class="container-high4__title">Payment Options</h3>
+                    <p class="container-high4__p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                </div>
+
+                <div class="carrusel__carrusel">
+                    <div class="carrusel__img4">
+                        <h3 class="img4__span01">06</h3>
+                        <div class="img4__container-goldFinger4">
+                            <img class="container-goldFinger4" src="/hotel-miranda/img/features/6.offers.svg"/>
+                        </div>
+                    </div>
+                    
+                    <div class="carrusel__container-high4">
+                        <h3 class="container-high4__title">Special Offers</h3>
+                    <p class="container-high4__p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
                 </div>
             </div>
+
+            
         </section>
 
         <section class="section-fun-facts">
 
-            <h4  class="sections-fun-facts__subtitle"></h4>
-            <h3  class="sections-fun-facts__title"></h3>
+            <h4  class="sections-fun-facts__subtitle">COUNTER</h4>
+            <h3  class="sections-fun-facts__title">Some Fun Facts</h3>
             <div class="sections-fun-facts__container">
 
                 
@@ -153,19 +230,14 @@
 
             <div class="section-fun-facts__carrusel">
                 <img class="carrusel__fun-facts" src="/hotel-miranda/img/fondoGris.jpg">
+
+                <img class="carrusel__fun-facts2" src="/hotel-miranda/img/fondoGris.jpg">
             </div>
 
 
         </section>
 
-        
-
-
-
-
-
-
-        <footer class="footer">
+        <section class="footer">
             <div class="footer__info">
                 <div class="info__title">
                     <h3 class="title__logo-h">H</h3>
@@ -177,15 +249,17 @@
                 </div>
                 
                 <p class="footer__text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
+    
+                <div class="footer__social-media">
+                    <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/1.facebook.svg"/>
+                    <img class="img social-media__img" class="img social-media__img-twitter" src="/hotel-miranda/img/socialMedia/2.twitter.svg"/>
+                    <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/3.Be.svg"/>
+                    <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/4.linkedin.svg"/>
+                    <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/5.youtube.svg"/>
+                </div>
             </div>
     
-            <div class="footer__social-media">
-                <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/1.facebook.svg"/>
-                <img class="img social-media__img" class="img social-media__img-twitter" src="/hotel-miranda/img/socialMedia/2.twitter.svg"/>
-                <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/3.Be.svg"/>
-                <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/4.linkedin.svg"/>
-                <img class="img social-media__img" src="/hotel-miranda/img/socialMedia/5.youtube.svg"/>
-            </div>
+            
     
             <div class="footer__services">
                 <h3 class="services__span">Services.</h3>
@@ -249,13 +323,14 @@
                     </div>
                 </div>
             </div>
-    
-            <div class="footer__copyright">
-                <h3 class="copyright__element">Copyright By@Example - 2020</h3>
-                <h3 class="copyright__element">Terms of use | Privacy Environmental Policy</h3>
-            </div>
+        </section>
+        <footer class="footer__copyright">
+            <h3 class="copyright__element">Copyright By@Example - 2020</h3>
+            <h3 class="copyright__element">Terms of use | Privacy Environmental Policy</h3>
         </footer>
-    <script src="home3.js"></script>
+        <script src="/hotel-miranda/scripts/showBurgerMenu.js">
+     
+        </script>
     </body>
     
     </html>

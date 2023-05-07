@@ -1,5 +1,4 @@
 .section-selection-rooms{
-
     margin-top: 48px;
     margin-bottom: 49px;
     padding-left: 20px;
@@ -16,14 +15,14 @@
 .rooms__img{
     position: relative;
     width: 100%;
-   
 }
 
 .rooms.section-hand-picked__rectangle{
-    position: absolute;
-    justify-content: space-around;
-    bottom: 140px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 25px;
     padding: 5px;
+    width: 50%;
 }
 
 .rooms__details{
@@ -31,8 +30,7 @@
 }
 
 .details__title{
-    
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 16px;
     font-family: 'Old Standard TT';
     font-style: normal;
@@ -76,4 +74,23 @@
     font-size: 16px;
     line-height: 17px;
     color: #BDBDBD;
+}
+
+@media (min-width: 1000px) {
+    .section-selection-rooms{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+    .rooms.section-hand-picked__rectangle{
+        width: 80%;
+    }
+    .section-selection-rooms__rooms{
+        width: 90%;
+        position: relative;
+    }
+
+    .details__title{
+        margin-top: 0px;
+    }
 }

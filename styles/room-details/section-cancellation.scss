@@ -17,3 +17,23 @@
 .section-cancellation__hr{
     margin-bottom: 32.55px;
 }
+
+@media (min-width: 1000px) {
+    .section-cancellation{
+        width: 600px;
+        position: relative;
+        margin-bottom: 50px;
+        left: 18%;
+    }
+    
+    .section-cancellation__title{
+        border-bottom: 1px solid #F1F1F1;
+    }
+    
+    .section-cancellation__hr{
+        visibility: hidden;
+        position: absolute;
+        left: -120%;
+    }
+
+}

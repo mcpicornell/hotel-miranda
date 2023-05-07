@@ -44,4 +44,38 @@
   background: #BEAD8E;
   padding: 20px 102.4px 21px 104.6px;
   border: none;
+}
+
+@media (min-width: 1000px) {
+  .section-form-contact__img-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .img-container__img-form {
+    width: 100%;
+  }
+  .section-form-contact__form {
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .form__input-container-contact__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .form__input-container-contact {
+    margin: 15px;
+  }
+  .section-form-contact__button {
+    width: 230px;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+    border: none;
+  }
+  .form__input-message-container {
+    padding: 25px 21px 131px 21px;
+    margin-bottom: 30px;
+  }
 }/*# sourceMappingURL=section-form-contact.css.map */

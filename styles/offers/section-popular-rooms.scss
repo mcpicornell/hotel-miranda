@@ -3,6 +3,9 @@
     margin-bottom: 60px;
     padding: 10px 20px 40px 20px;
     background: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .section-popular-rooms__subtitle{
@@ -32,4 +35,16 @@
 
 .section-selection-rooms__rooms{
     background: #FFFFFF;
+}
+
+@media (min-width: 1000px){
+    .section-popular-rooms{
+        padding-top: 65px;
+        margin-bottom: 100px;
+    }
+    .section-popular-rooms__img-container-slider{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0px 5% 30px 5%;
+    }
 }

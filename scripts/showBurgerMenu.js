@@ -12,3 +12,10 @@ burger.addEventListener("click", (event) =>{
         
     } 
 });
+
+const roomElement = document.getElementsByClassName("section-selection-rooms__rooms")[0];
+
+roomElement.addEventListener("click", (event) => {
+    const newUrl = "roomDetails7.html";
+    window.location.href = newUrl;
+})

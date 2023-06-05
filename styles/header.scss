@@ -2,11 +2,13 @@
     .uptitle-header{
         position: absolute;
         left: -200px;
+        visibility: hidden;
     }
 
     .uptitle-header__h5{
         position: absolute;
         left: -200px;
+        visibility: hidden;
     }
 
     .header{
@@ -110,7 +112,7 @@
         padding-left: 200px;
         padding-top: 11px;
         height: 100px;
-        
+        visibility: visible;
     }
     .uptitle-header__h5{
         color: rgba(255, 255, 255, 1);
@@ -121,6 +123,7 @@
         line-height: 19px;
         position: absolute;
         bottom: 100px;
+        visibility: visible;
     }
     .burger__img{
         position: absolute;

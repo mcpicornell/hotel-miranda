@@ -127,6 +127,7 @@
     display: flex;
     width: 100%;
     align-items: center;
+    margin-left: 40px;
   }
   .inner__burger {
     display: flex;
@@ -134,6 +135,9 @@
     align-items: center;
     padding-left: 20px;
     margin-right: 32px;
+    position: absolute;
+    visibility: hidden;
+    left: -200%;
   }
   .inner__burger:hover {
     cursor: pointer;

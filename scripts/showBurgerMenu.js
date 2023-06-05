@@ -13,10 +13,10 @@ burger.addEventListener("click", (event) => {
     }
 });
 
+const roomTag = document.getElementsByClassName("section-selection-rooms__rooms");
 
-for(i=0; i<document.getElementsByClassName("section-selection-rooms__rooms").length; i++){
-    document.getElementsByClassName("section-selection-rooms__rooms")[i]
-    .addEventListener("click", (event) => {
+for(i=0; i<roomTag.length; i++){
+    roomTag[i].addEventListener("click", (event) => {
         const newUrl = "roomDetails.html";
         window.location.href = newUrl;
     })
@@ -25,7 +25,7 @@ for(i=0; i<document.getElementsByClassName("section-selection-rooms__rooms").len
 const headerTag = document.getElementsByClassName("header__inner")[0];
 
 headerTag.addEventListener("click", (event) => {
-    const newUrl = "index.html";
+    const newUrl = "hotel-miranda/index.html";
     window.location.href = newUrl;
 })
 
